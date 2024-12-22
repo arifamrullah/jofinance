@@ -1,0 +1,41 @@
+.CSSTableGenerator {
+border-collapse: collapse;
+border-spacing: 0;
+empty-cells: show;
+margin:5px auto;
+padding:0px;
+width:100%;}
+
+.CSSTableGenerator table {
+width:100%;
+height:auto;
+margin:0px;padding:0px;}
+
+.CSSTableGenerator td {
+vertical-align:top;
+text-align:left;
+padding:7px;
+font-size:13px;
+color:#31353a;
+border-width: 0 0 0 1px;
+border-bottom: 1px solid rgba(49,53,58,0.1);
+overflow: visible;}
+
+.CSSTableGenerator td:first-child, th:first-child {
+border-left-width: 0;}
+
+.CSSTableGenerator tr:first-child td, tr:first-child th {
+text-align:left;
+font-size:15px;
+font-family:'ZonaPro-Bold';
+font-weight:bold;
+color:#31353a;
+border-bottom: 2px solid rgba(49,53,58,0.5);}
+
+.CSSTableGenerator tr:last-child td, tr:last-child th {
+border: none;}
+
+/*
+.CSSTableGenerator tbody>tr:nth-child(odd)>td {
+background: rgba(49,53,58,0.1);}
+*/
